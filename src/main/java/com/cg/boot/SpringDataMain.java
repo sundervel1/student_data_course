@@ -12,7 +12,7 @@ public class SpringDataMain {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringDataMain.class, args);
-		System.out.println("Spring data app running....");
+		System.out.println("Spring data student running....");
 	}
 	@Bean
 	public CorsFilter corsFilter() {
